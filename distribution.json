@@ -1,0 +1,104 @@
+{
+    "version": "1.0.0",
+    "_comment_compat": "NeoForge 1.21.11 — helios-core는 NeoForge를 위해 ForgeHosted 타입을 재사용. 1.13+ mod loader는 VersionManifest 서브모듈 필수.",
+    "discord": {
+        "clientId": "REPLACE_WITH_DISCORD_APP_ID",
+        "smallImageText": "Skidia RPG",
+        "smallImageKey": "skidia-icon"
+    },
+    "rss": "",
+    "servers": [
+        {
+            "id": "skidia-rpg",
+            "name": "Skidia RPG Server",
+            "description": "Skidia RPG - 커스텀 직업, 펫, 보스, 퀘스트가 가득한 RPG 서버",
+            "icon": "https://skidye.github.io/skidia-distro/assets/server-icon.png",
+            "version": "1.0.0",
+            "address": "127.0.0.1:25565",
+            "minecraftVersion": "1.21.11",
+            "discord": {
+                "shortId": "Skidia",
+                "largeImageText": "Skidia RPG Server",
+                "largeImageKey": "skidia-server"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=21",
+                "suggestedMajor": 21,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "modules": [
+                {
+                    "_comment": "=== MOD LOADER: NeoForge 21.11.42 (1.21.11) ===",
+                    "id": "net.neoforged:neoforge:21.11.42",
+                    "name": "NeoForge 21.11.42",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 4232072,
+                        "MD5": "0064eb8cf5bd65b52c9182262f932897",
+                        "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.42/neoforge-21.11.42-installer.jar"
+                    },
+                    "subModules": [
+                        {
+                            "_comment": "NeoForge installer 실행 후 생성되는 version.json을 호스팅. README → 호스팅 가이드 참고.",
+                            "id": "net.neoforged:neoforge:21.11.42@json",
+                            "name": "NeoForge Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 11513,
+                                "MD5": "2d601e4dccd479ab30c30763c03a80c5",
+                                "url": "https://skidye.github.io/skidia-distro/loader/neoforge-21.11.42.json"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "_comment": "=== REQUIRED MODS (Cannot be disabled) ===",
+                    "id": "de.maxhenkel.voicechat:voicechat:neoforge-1.21.11-2.6.9",
+                    "name": "Simple Voice Chat",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 4891996,
+                        "MD5": "a101cb9ec683e59c45c009768d7ae3f5",
+                        "url": "https://skidye.github.io/skidia-distro/mods/voicechat-neoforge-1.21.11-2.6.9.jar"
+                    }
+                },
+                {
+                    "id": "info.journeymap:journeymap:neoforge-1.21.11-6.0.0-beta.76",
+                    "name": "JourneyMap (Minimap)",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 4044080,
+                        "MD5": "72fb69f481bc5c1bdfcefbeee977afc7",
+                        "url": "https://skidye.github.io/skidia-distro/mods/journeymap-neoforge-1.21.11-6.0.0-beta.76.jar"
+                    }
+                },
+                {
+                    "_comment": "=== RESOURCE PACK ===",
+                    "id": "com.skidia:resourcepack:1.0.0",
+                    "name": "Skidia RPG Resource Pack",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 6326,
+                        "MD5": "e0a552fc3a0f0d62f6309e4fb4718742",
+                        "path": "resourcepacks/SkidiaRPG.zip",
+                        "url": "https://skidye.github.io/skidia-distro/resourcepacks/SkidiaRPG.zip"
+                    }
+                }
+            ]
+        }
+    ]
+}
