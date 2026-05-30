@@ -14,7 +14,7 @@
             "description": "Skidia RPG - 커스텀 직업, 펫, 보스, 퀘스트가 가득한 RPG 서버",
             "icon": "https://skidye.github.io/skidia-distro/assets/server-icon.png",
             "version": "1.0.0",
-            "address": "127.0.0.1:25565",
+            "address": "183.99.23.16:25565",
             "minecraftVersion": "1.21.11",
             "discord": {
                 "shortId": "Skidia",
