@@ -3,22 +3,22 @@
     "_comment_compat": "NeoForge 1.21.11 — helios-core는 NeoForge를 위해 ForgeHosted 타입을 재사용. 1.13+ mod loader는 VersionManifest 서브모듈 필수.",
     "discord": {
         "clientId": "REPLACE_WITH_DISCORD_APP_ID",
-        "smallImageText": "Skidia RPG",
+        "smallImageText": "WID wild",
         "smallImageKey": "skidia-icon"
     },
     "rss": "",
     "servers": [
         {
             "id": "skidia-rpg",
-            "name": "Skidia RPG Server",
-            "description": "Skidia RPG - 커스텀 직업, 펫, 보스, 퀘스트가 가득한 RPG 서버",
+            "name": "WID wild",
+            "description": "WID wild — 커스텀 직업, 펫, 보스, 퀘스트가 가득한 RPG 서버",
             "icon": "https://skidye.github.io/skidia-distro/assets/server-icon.png",
             "version": "1.0.0",
             "address": "127.0.0.1:25565",
             "minecraftVersion": "1.21.11",
             "discord": {
-                "shortId": "Skidia",
-                "largeImageText": "Skidia RPG Server",
+                "shortId": "WIDwild",
+                "largeImageText": "WID wild",
                 "largeImageKey": "skidia-server"
             },
             "mainServer": true,
@@ -333,7 +333,7 @@
                 {
                     "_comment": "=== RESOURCE PACK ===",
                     "id": "com.skidia:resourcepack:1.0.0",
-                    "name": "Skidia RPG Resource Pack",
+                    "name": "WID wild Resource Pack",
                     "type": "File",
                     "required": {
                         "value": true
