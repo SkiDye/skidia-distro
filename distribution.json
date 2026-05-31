@@ -359,7 +359,7 @@
                     }
                 },
                 {
-                    "id": "not-enough-animations:1.12.3",
+                    "id": "clientmod:notenoughanimations:1.12.3",
                     "name": "Not Enough Animations",
                     "type": "ForgeMod",
                     "required": {
@@ -372,7 +372,7 @@
                     }
                 },
                 {
-                    "id": "appleskin:3.0.8+mc1.21.11",
+                    "id": "clientmod:appleskin:3.0.8",
                     "name": "AppleSkin",
                     "type": "ForgeMod",
                     "required": {
@@ -385,7 +385,7 @@
                     }
                 },
                 {
-                    "id": "chat-heads:1.2.4",
+                    "id": "clientmod:chatheads:1.2.4",
                     "name": "Chat Heads",
                     "type": "ForgeMod",
                     "required": {
