@@ -331,19 +331,6 @@
                     }
                 },
                 {
-                    "id": "info.journeymap:journeymap:neoforge-1.21.11-6.0.0-beta.82",
-                    "name": "JourneyMap (Minimap)",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 4122596,
-                        "MD5": "857145e443c9ed09397e1cc824218e69",
-                        "url": "https://skidye.github.io/skidia-distro/mods/journeymap-neoforge-1.21.11-6.0.0-beta.82.jar"
-                    }
-                },
-                {
                     "_comment": "=== RESOURCE PACK ===",
                     "id": "com.skidia:resourcepack:1.0.0",
                     "name": "Skidia RPG Resource Pack",
@@ -356,6 +343,19 @@
                         "MD5": "e0a552fc3a0f0d62f6309e4fb4718742",
                         "path": "resourcepacks/SkidiaRPG.zip",
                         "url": "https://skidye.github.io/skidia-distro/resourcepacks/SkidiaRPG.zip"
+                    }
+                },
+                {
+                    "id": "xaero:minimap:neoforge-1.21.11-25.3.12",
+                    "name": "Xaero's Minimap",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2116016,
+                        "MD5": "b514cbc146e49e653a98624ed5b83f99",
+                        "url": "https://skidye.github.io/skidia-distro/mods/xaerominimap-neoforge-1.21.11-25.3.12.jar"
                     }
                 }
             ]
