@@ -331,16 +331,16 @@
                     }
                 },
                 {
-                    "id": "info.journeymap:journeymap:neoforge-1.21.11-6.0.0-beta.76",
+                    "id": "info.journeymap:journeymap:neoforge-1.21.11-6.0.0-beta.82",
                     "name": "JourneyMap (Minimap)",
                     "type": "ForgeMod",
                     "required": {
                         "value": true
                     },
                     "artifact": {
-                        "size": 4044080,
-                        "MD5": "72fb69f481bc5c1bdfcefbeee977afc7",
-                        "url": "https://skidye.github.io/skidia-distro/mods/journeymap-neoforge-1.21.11-6.0.0-beta.76.jar"
+                        "size": 4122596,
+                        "MD5": "857145e443c9ed09397e1cc824218e69",
+                        "url": "https://skidye.github.io/skidia-distro/mods/journeymap-neoforge-1.21.11-6.0.0-beta.82.jar"
                     }
                 },
                 {
