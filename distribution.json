@@ -396,6 +396,46 @@
                         "MD5": "b3a18a6079dac623940b8ed88c9d933b",
                         "url": "https://skidye.github.io/skidia-distro/mods/chat_heads-1.2.4-neoforge-1.21.11.jar"
                     }
+                },
+                {
+                    "id": "clientmod:entity-model-features:3.2.4",
+                    "name": "Entity Model Features (EMF)",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 583909,
+                        "MD5": "ebab48a2688102f5f6e54804b66b8bc4",
+                        "url": "https://skidye.github.io/skidia-distro/mods/entity_model_features-3.2.4-1.21.11-neoforge.jar"
+                    }
+                },
+                {
+                    "id": "clientmod:entitytexturefeatures:7.1",
+                    "name": "Entity Texture Features (ETF)",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 751601,
+                        "MD5": "628735b608b941bd41a010d2803585fc",
+                        "url": "https://skidye.github.io/skidia-distro/mods/entity_texture_features_1.21.11-neoforge-7.1.jar"
+                    }
+                },
+                {
+                    "id": "resourcepack:fresh-animations:1.10.4",
+                    "name": "Fresh Animations",
+                    "type": "File",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 850941,
+                        "MD5": "ab0e8cc3444e98f0fd51ac0d84533d52",
+                        "path": "resourcepacks/FreshAnimations_v1.10.4.zip",
+                        "url": "https://skidye.github.io/skidia-distro/resourcepacks/FreshAnimations_v1.10.4.zip"
+                    }
                 }
             ]
         }
