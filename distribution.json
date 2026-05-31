@@ -27,8 +27,8 @@
                 "supported": ">=21",
                 "suggestedMajor": 21,
                 "ram": {
-                    "recommended": 4096,
-                    "minimum": 2048
+                    "recommended": 8192,
+                    "minimum": 8192
                 }
             },
             "modules": [
