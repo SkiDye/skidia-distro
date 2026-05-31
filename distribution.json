@@ -45,7 +45,7 @@
                     "subModules": [
                         {
                             "_comment": "NeoForge installer 실행 후 생성되는 version.json을 호스팅. README → 호스팅 가이드 참고.",
-                            "id": "net.neoforged:neoforge:21.11.42@json",
+                            "id": "neoforge-21.11.42",
                             "name": "NeoForge Version Manifest",
                             "type": "VersionManifest",
                             "artifact": {
