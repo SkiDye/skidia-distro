@@ -359,19 +359,6 @@
                     }
                 },
                 {
-                    "id": "lambdynamiclights:4.9.1+1.21.11",
-                    "name": "LambDynamicLights",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 2144865,
-                        "MD5": "35d4fa10a0e9678d60022e73ae9fe814",
-                        "url": "https://skidye.github.io/skidia-distro/mods/lambdynamiclights-4.9.1+1.21.11.jar"
-                    }
-                },
-                {
                     "id": "not-enough-animations:1.12.3",
                     "name": "Not Enough Animations",
                     "type": "ForgeMod",
@@ -382,19 +369,6 @@
                         "size": 1950532,
                         "MD5": "830adf79e98abdded6e15aaf6c868cbf",
                         "url": "https://skidye.github.io/skidia-distro/mods/notenoughanimations-neoforge-1.12.3-mc1.21.11.jar"
-                    }
-                },
-                {
-                    "id": "first-person-model:2.7.1",
-                    "name": "First Person Model",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 1612659,
-                        "MD5": "bd0d399952a24c6649f16617b05b5039",
-                        "url": "https://skidye.github.io/skidia-distro/mods/firstperson-neoforge-2.7.1-mc1.21.11.jar"
                     }
                 },
                 {
