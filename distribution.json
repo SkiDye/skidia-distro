@@ -438,19 +438,6 @@
                     }
                 },
                 {
-                    "id": "clientmod:sodium:0.8.12",
-                    "name": "Sodium (성능)",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 1133516,
-                        "MD5": "37bdc0c6f2580180e4cc47d82cd4c780",
-                        "url": "https://skidye.github.io/skidia-distro/mods/sodium-neoforge-0.8.12+mc1.21.11.jar"
-                    }
-                },
-                {
                     "id": "shaderpack:makeup-ultra-fast:9.4b",
                     "name": "MakeUp Ultra Fast Shaders",
                     "type": "File",
