@@ -451,19 +451,6 @@
                     }
                 },
                 {
-                    "id": "clientmod:iris:1.10.7",
-                    "name": "Iris (쉐이더 로더)",
-                    "type": "ForgeMod",
-                    "required": {
-                        "value": true
-                    },
-                    "artifact": {
-                        "size": 2748132,
-                        "MD5": "79997aebabd7f1290eb55e31773d3419",
-                        "url": "https://skidye.github.io/skidia-distro/mods/iris-neoforge-1.10.7+mc1.21.11.jar"
-                    }
-                },
-                {
                     "id": "shaderpack:makeup-ultra-fast:9.4b",
                     "name": "MakeUp Ultra Fast Shaders",
                     "type": "File",
