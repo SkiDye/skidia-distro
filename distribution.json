@@ -450,6 +450,32 @@
                         "path": "shaderpacks/MakeUp-UltraFast-9.4b.zip",
                         "url": "https://skidye.github.io/skidia-distro/shaderpacks/MakeUp-UltraFast-9.4b.zip"
                     }
+                },
+                {
+                    "id": "clientmod:sodium:0.8.12",
+                    "name": "Sodium",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 1133516,
+                        "MD5": "37bdc0c6f2580180e4cc47d82cd4c780",
+                        "url": "https://skidye.github.io/skidia-distro/mods/sodium-neoforge-0.8.12+mc1.21.11.jar"
+                    }
+                },
+                {
+                    "id": "clientmod:iris:1.10.7",
+                    "name": "Iris",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2748132,
+                        "MD5": "79997aebabd7f1290eb55e31773d3419",
+                        "url": "https://skidye.github.io/skidia-distro/mods/iris-neoforge-1.10.7+mc1.21.11.jar"
+                    }
                 }
             ]
         }
