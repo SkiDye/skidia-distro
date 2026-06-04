@@ -339,8 +339,8 @@
                         "value": true
                     },
                     "artifact": {
-                        "size": 6326,
-                        "MD5": "e0a552fc3a0f0d62f6309e4fb4718742",
+                        "size": 78547,
+                        "MD5": "d344c9f100e39a704b95689b9952231b",
                         "path": "resourcepacks/SkidiaRPG.zip",
                         "url": "https://skidye.github.io/skidia-distro/resourcepacks/SkidiaRPG.zip"
                     }
